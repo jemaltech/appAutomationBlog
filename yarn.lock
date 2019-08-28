@@ -7546,6 +7546,11 @@ ng-jhipster@0.10.1:
   dependencies:
     tslib "^1.9.0"
 
+ngmap@^1.18.5:
+  version "1.18.5"
+  resolved "https://registry.yarnpkg.com/ngmap/-/ngmap-1.18.5.tgz#574f0227f4ebcfa688c9d8afcd606162266c120e"
+  integrity sha512-wm+ue9cn2COpEDSfoio/9d4Y3TuZaMmH+VtLjQmKDWNEZg3Tqrd9aGc6uK3CzH4p+GLZfOngcnxOmrUbnpMFQQ==
+
 ngx-cookie@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/ngx-cookie/-/ngx-cookie-4.0.2.tgz#dc0044826cc3482b723fa70ecc6cd12af057d862"

@@ -18,6 +18,10 @@ import { AppAutomationHomeModule } from './home/home.module';
 import { AppAutomationAccountModule } from './account/account.module';
 import { AppAutomationEntityModule } from './entities/entity.module';
 import * as moment from 'moment';
+import { AppAutomationAppAboutUsModule } from './about-us/about-us.module';
+
+import { AppAutomationAppContactUsModule } from './contact-us/contact-us.module';
+import { AppAutomationAppServicesModule } from './services/services.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent } from './layouts';
 
@@ -36,6 +40,9 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
     AppAutomationCoreModule,
     AppAutomationHomeModule,
     AppAutomationAccountModule,
+    AppAutomationAppAboutUsModule,
+    AppAutomationAppContactUsModule,
+    AppAutomationAppServicesModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     AppAutomationEntityModule,
     AppAutomationAppRoutingModule
