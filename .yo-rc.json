@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.appautomation",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "monolith",
+    "baseName": "appAutomation",
+    "packageName": "org.appautomation",
+    "packageFolder": "org/appautomation",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NzllYmE2YzcyMjQ5ZGFlYzQzY2Q5MWRmMzExYTUxOWRmMjExNGM3NjIxYTgwNjZlMTcwZjFmNTRkNzcwM2U1MWVkY2Y2MDUyMzEzZTgzN2U2M2Y4ZWI2ZmFmNjIyNmFkNTJhMzRhNjg5YWE1MmQwZjM5NDhkYjdlZTE5YTZiMzY=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "solar",
+    "clientThemeVariant": "dark",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "ar-ly", "zh-cn", "nl"],
+    "blueprints": []
+  }
+}
