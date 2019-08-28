@@ -1,6 +1,7 @@
 package org.appautomation.web.rest;
 
 import org.appautomation.AppAutomationApp;
+import org.appautomation.config.TestSecurityConfiguration;
 import org.appautomation.config.audit.AuditEventConverter;
 import org.appautomation.domain.PersistentAuditEvent;
 import org.appautomation.repository.PersistenceAuditEventRepository;
@@ -30,7 +31,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Integration tests for the {@link AuditResource} REST controller.
  */
-@SpringBootTest(classes = AppAutomationApp.class)
+@SpringBootTest(classes = {AppAutomationApp.class, TestSecurityConfiguration.class})
 @Transactional
 public class AuditResourceIT {
 

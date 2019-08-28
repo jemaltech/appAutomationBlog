@@ -4,20 +4,6 @@
     "browsehappy": "أنت تستخدم متصفح <strong>قديم</strong> . من فضلك <a href=\"http://browsehappy.com/?locale=en\">قم بتحديث متصفحك</a> لتحسين تجربتك.",
     "menu": {
       "home": "الصفحة الرئيسية",
-      "about-us": "About Us",
-      "contact-us": "Contact Us",
-      "services": "Services",
-      "page-one": "Page One",
-      "page-two": "Page Two",
-      "dashboard": {
-        "main": "Dashboard",
-        "barchart": "BarChart",
-        "doughnutchart": "DoughnutChart",
-        "linechart": "LineChart",
-        "piechart": "PieChart",
-        "polarareachart": "PolarAreaChart",
-        "radarchart": "RadarChart"
-      },
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "الكيانات",

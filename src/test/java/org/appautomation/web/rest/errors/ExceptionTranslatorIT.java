@@ -1,6 +1,7 @@
 package org.appautomation.web.rest.errors;
 
 import org.appautomation.AppAutomationApp;
+import org.appautomation.config.TestSecurityConfiguration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Integration tests {@link ExceptionTranslator} controller advice.
  */
-@SpringBootTest(classes = AppAutomationApp.class)
+@SpringBootTest(classes = {AppAutomationApp.class, TestSecurityConfiguration.class})
 public class ExceptionTranslatorIT {
 
     @Autowired

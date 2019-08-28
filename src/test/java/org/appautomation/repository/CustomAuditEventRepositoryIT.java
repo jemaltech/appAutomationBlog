@@ -2,6 +2,7 @@ package org.appautomation.repository;
 
 import org.appautomation.AppAutomationApp;
 import org.appautomation.config.Constants;
+import org.appautomation.config.TestSecurityConfiguration;
 import org.appautomation.config.audit.AuditEventConverter;
 import org.appautomation.domain.PersistentAuditEvent;
 import org.junit.jupiter.api.BeforeEach;
@@ -27,7 +28,7 @@ import static org.appautomation.repository.CustomAuditEventRepository.EVENT_DATA
 /**
  * Integration tests for {@link CustomAuditEventRepository}.
  */
-@SpringBootTest(classes = AppAutomationApp.class)
+@SpringBootTest(classes = {AppAutomationApp.class, TestSecurityConfiguration.class})
 @Transactional
 public class CustomAuditEventRepositoryIT {
 

@@ -3,7 +3,6 @@
 import '../content/scss/vendor.scss';
 
 // Imports all fontawesome core and solid icons
-import '@agm/core';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -79,5 +78,4 @@ library.add(faSearch);
 library.add(faTrashAlt);
 library.add(faAsterisk);
 
-import 'chart.js/src/chart.js';
 // jhipster-needle-add-element-to-vendor - JHipster will add new menu items here

@@ -1,11 +1,10 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { AppAutomationSharedCommonModule, JhiLoginModalComponent, HasAnyAuthorityDirective } from './';
+import { AppAutomationSharedCommonModule, HasAnyAuthorityDirective } from './';
 
 @NgModule({
   imports: [AppAutomationSharedCommonModule],
-  declarations: [JhiLoginModalComponent, HasAnyAuthorityDirective],
-  entryComponents: [JhiLoginModalComponent],
-  exports: [AppAutomationSharedCommonModule, JhiLoginModalComponent, HasAnyAuthorityDirective],
+  declarations: [HasAnyAuthorityDirective],
+  exports: [AppAutomationSharedCommonModule, HasAnyAuthorityDirective],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppAutomationSharedModule {

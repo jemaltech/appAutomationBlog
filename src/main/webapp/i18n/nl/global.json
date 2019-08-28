@@ -4,20 +4,6 @@
     "browsehappy": "U gebruikt een <strong>verouderde</strong> browser. <a href=\"http://browsehappy.com/?locale=en\">upgrade uw browser</a> om de bruikbaarheid te verbeteren.",
     "menu": {
       "home": "Startpagina",
-      "about-us": "About Us",
-      "contact-us": "Contact Us",
-      "services": "Services",
-      "page-one": "Page One",
-      "page-two": "Page Two",
-      "dashboard": {
-        "main": "Dashboard",
-        "barchart": "BarChart",
-        "doughnutchart": "DoughnutChart",
-        "linechart": "LineChart",
-        "piechart": "PieChart",
-        "polarareachart": "PolarAreaChart",
-        "radarchart": "RadarChart"
-      },
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entiteiten",
