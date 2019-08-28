@@ -22,6 +22,7 @@ import { AppAutomationAppAboutUsModule } from './about-us/about-us.module';
 
 import { AppAutomationAppContactUsModule } from './contact-us/contact-us.module';
 import { AppAutomationAppServicesModule } from './services/services.module';
+import { AppAutomationDashboardModule } from './dashboard/dashboard.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent } from './layouts';
 
@@ -43,6 +44,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
     AppAutomationAppAboutUsModule,
     AppAutomationAppContactUsModule,
     AppAutomationAppServicesModule,
+    AppAutomationDashboardModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     AppAutomationEntityModule,
     AppAutomationAppRoutingModule

@@ -9,6 +9,15 @@
       "services": "Services",
       "page-one": "Page One",
       "page-two": "Page Two",
+      "dashboard": {
+        "main": "Dashboard",
+        "barchart": "BarChart",
+        "doughnutchart": "DoughnutChart",
+        "linechart": "LineChart",
+        "piechart": "PieChart",
+        "polarareachart": "PolarAreaChart",
+        "radarchart": "RadarChart"
+      },
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "数据",
