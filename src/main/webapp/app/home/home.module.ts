@@ -10,7 +10,7 @@ import { AgmCoreModule } from '@agm/core';
     AppAutomationSharedModule,
     RouterModule.forChild([HOME_ROUTE]),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCro7bIfprX1GqcmHfkFF9sR1V9wfVthnM'
+      apiKey: 'ask'
     })
   ],
 
