@@ -7546,11 +7546,6 @@ ng-jhipster@0.10.1:
   dependencies:
     tslib "^1.9.0"
 
-ngmap@^1.18.5:
-  version "1.18.5"
-  resolved "https://registry.yarnpkg.com/ngmap/-/ngmap-1.18.5.tgz#574f0227f4ebcfa688c9d8afcd606162266c120e"
-  integrity sha512-wm+ue9cn2COpEDSfoio/9d4Y3TuZaMmH+VtLjQmKDWNEZg3Tqrd9aGc6uK3CzH4p+GLZfOngcnxOmrUbnpMFQQ==
-
 ngx-cookie@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/ngx-cookie/-/ngx-cookie-4.0.2.tgz#dc0044826cc3482b723fa70ecc6cd12af057d862"
@@ -10792,7 +10787,7 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swagger-ui@^2.2.10:
+swagger-ui@2.2.10:
   version "2.2.10"
   resolved "https://registry.yarnpkg.com/swagger-ui/-/swagger-ui-2.2.10.tgz#b25e7a21664e5d90bf391db30db08de41e852d7b"
   integrity sha1-sl56IWZOXZC/OR2zDbCN5B6FLXs=
@@ -11025,9 +11020,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-array@0.1.4:
   version "0.1.4"
