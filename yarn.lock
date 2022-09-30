@@ -299,9 +299,9 @@
   integrity sha512-1dVNHT76Uu5N3eJNTYcvxee+jzX4Z9lfciqRRHCU27ihbUcYi+iSc2iml5Ke1LXe1SyJCLA0+14Jh4tXJgOppA==
 
 "@hapi/hoek@8.x.x":
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.2.1.tgz#924af04cbb22e17359c620d2a9c946e63f58eb77"
-  integrity sha512-JPiBy+oSmsq3St7XlipfN5pNA6bDJ1kpa73PrK/zR29CVClDVqy04AanM/M/qx5bSF+I61DdCfAvRrujau+zRg==
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.5.1.tgz#fde96064ca446dec8c55a8c2f130957b070c6e06"
+  integrity sha512-yN7kbciD87WzLGc5539Tn0sApjyiGHAJgKvG9W8C7O+6c7qmoQMfVs0W4bX17eqz6C78QJqqFrtgdK5EWf6Qow==
 
 "@hapi/joi@^15.0.0":
   version "15.1.1"
@@ -7546,11 +7546,6 @@ ng-jhipster@0.10.1:
   dependencies:
     tslib "^1.9.0"
 
-ngmap@^1.18.5:
-  version "1.18.5"
-  resolved "https://registry.yarnpkg.com/ngmap/-/ngmap-1.18.5.tgz#574f0227f4ebcfa688c9d8afcd606162266c120e"
-  integrity sha512-wm+ue9cn2COpEDSfoio/9d4Y3TuZaMmH+VtLjQmKDWNEZg3Tqrd9aGc6uK3CzH4p+GLZfOngcnxOmrUbnpMFQQ==
-
 ngx-cookie@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/ngx-cookie/-/ngx-cookie-4.0.2.tgz#dc0044826cc3482b723fa70ecc6cd12af057d862"
@@ -10792,10 +10787,10 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swagger-ui@^2.2.10:
+swagger-ui@2.2.10:
   version "2.2.10"
   resolved "https://registry.yarnpkg.com/swagger-ui/-/swagger-ui-2.2.10.tgz#b25e7a21664e5d90bf391db30db08de41e852d7b"
-  integrity sha1-sl56IWZOXZC/OR2zDbCN5B6FLXs=
+  integrity sha512-dXSMq5umiy6XJNhpiYBYOsjMvq3+qoISWL55cMtOeoNqv/gA6NQ19F+4gJWQ81PL4V/j/F6V6tA5aSlCIV3PKg==
 
 symbol-observable@1.0.1:
   version "1.0.1"
